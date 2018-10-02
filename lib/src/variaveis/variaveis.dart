@@ -24,4 +24,13 @@ class VariaveisComponent{
     print("A quantidade de frutas que eu comprei foi: $frutas");
     print("O preço total das frutas compradas, foi de $preco");
   }
+
+  operacaoMatematica(){
+    double num1 = 10.3;
+    double num2 = 2.4;
+
+    double resultado = num1 + num2;
+    print(resultado);
+  }
+  
 }
