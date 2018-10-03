@@ -32,5 +32,20 @@ class VariaveisComponent{
     double resultado = num1 + num2;
     print(resultado);
   }
+
+  usoDoSwitch(){
+    int numero = 3;
+
+    switch(numero){
+      case 0:
+        print("É Dart!!");
+        break;
+      case 1: 
+        print("É Javascript");
+        break;
+      default:
+        print("É outra linguagem");
+    }
+  }
   
 }
