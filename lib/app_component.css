@@ -1,3 +1,7 @@
+:host {
+    /* This is equivalent of the 'body' selector of a page. */
+}
+
 .veiculos .badge {
     display: inline-block;
     font-size: small;

@@ -6,8 +6,8 @@ import 'package:angular_components/angular_components.dart';
 import 'tarefas_service.dart';
 @Component(
   selector: 'tarefas',
-  templateUrl: 'tarefas.html',
   styleUrls: ['tarefas.css'],
+  templateUrl: 'tarefas.html',
   directives: [
     MaterialFabComponent,
     MaterialIconComponent,
@@ -34,4 +34,6 @@ class TarefasComponent implements OnInit{
     items.add(novaTarefa);
     novaTarefa = '';
   }
+
+  String remove(int index) => items.removeAt(index);
 }
