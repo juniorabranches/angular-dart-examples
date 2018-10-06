@@ -1,0 +1,13 @@
+<div>
+    <material-input label="Qual a sua tarefa?" 
+                    autoFocus floatingLabel style="width: 80%"
+                    [(ngModel)]="novaTarefa"
+                    (keyup.enter)="add()">
+    </material-input>
+
+    <material-fab mini raised
+                  (trigger)="add()"
+                  [disabled]="novaTarefa.isEmpty">
+                  <material-icon icon="add"></material-icon>
+    </material-fab>
+</div>
